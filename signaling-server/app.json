@@ -1,0 +1,6 @@
+{
+  "name": "WebRTC signaling server",
+  "description": "WebRTC signalig server implementation",
+  "repository": "https://github.com/cartovarc/webrtc_streaming.git",
+  "keywords": ["node", "websocket", "socket.io", "aiortc", "webrtc"]
+}
