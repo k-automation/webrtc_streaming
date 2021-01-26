@@ -30,7 +30,6 @@ Ready to use WebRTC Streaming
 Requirements
 ------------
 * https://ffmpeg.org/download.html
-* https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c
 
 
 Features
