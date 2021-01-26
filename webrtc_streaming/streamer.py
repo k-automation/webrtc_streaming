@@ -7,7 +7,9 @@ from aiortc import VideoStreamTrack
 from av import VideoFrame
 
 
-async def _start_streaming(video_capture=None, secret_key=None, signaling_server=None):
+async def _start_streaming(video_capture=None,
+                           secret_key=None,
+                           signaling_server=None):
 
     class CV2Track(VideoStreamTrack):
         """
@@ -79,7 +81,8 @@ async def _start_streaming(video_capture=None, secret_key=None, signaling_server
             "sdp": pc.localDescription.sdp,
             "type": pc.localDescription.type
         }
-        await sio.emit("offer_to_viewer", {"viewer_id": viewer_id, "offer": offer})
+        await sio.emit("offer_to_viewer",
+                       {"viewer_id": viewer_id, "offer": offer})
 
     @sio.event
     def disconnect():
@@ -89,7 +92,9 @@ async def _start_streaming(video_capture=None, secret_key=None, signaling_server
     await sio.wait()
 
 
-def start_streaming(video_capture=None, secret_key=None, signaling_server=None):
+def start_streaming(video_capture=None,
+                    secret_key=None,
+                    signaling_server=None):
     assert secret_key is not None
     assert signaling_server is not None
 
