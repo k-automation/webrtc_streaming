@@ -13,8 +13,10 @@ from webrtc_streaming import start_streaming
 
 
 args = sys.argv
-assert len(args) == 2, "No secret key provided or more arguments were given than expected"
+assert len(
+    args) == 2, "No secret key provided or more arguments were given than expected"
 secret_key = args[1]
+
 
 class MyOwnVideoCapture:
     def __init__(self):
