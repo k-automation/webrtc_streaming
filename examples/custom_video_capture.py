@@ -4,11 +4,12 @@ import numpy as np
 from webrtc_streaming import start_streaming
 
 """
-    This example:
-        - Connect to signaling server and wait for viewers who know the secret key
-
-    This custom video capture generates an white noise streaming.
+    Connect to signaling server and wait for viewers who know the secret key
+    MyOwnVideoCapture generates an white noise streaming.
     If video_capture arg is not provided, it will use cv2.VideoCapture(-1) by default.
+
+    Usage:
+        python custom_video_capture.py YOUR_SECRET_KEY
 """
 
 
