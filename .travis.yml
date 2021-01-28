@@ -22,5 +22,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: cartovarc/webrtc_streaming
+    repo: Utring/webrtc_streaming
     python: 3.8

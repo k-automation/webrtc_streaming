@@ -6,16 +6,16 @@ WebRTC Streaming
 .. image:: https://img.shields.io/pypi/v/webrtc-streaming.svg
         :target: https://pypi.python.org/pypi/webrtc-streaming
 
-.. image:: https://api.travis-ci.com/cartovarc/webrtc_streaming.svg
-        :target: https://travis-ci.com/cartovarc/webrtc_streaming
+.. image:: https://api.travis-ci.com/Utring/webrtc_streaming.svg
+        :target: https://travis-ci.com/Utring/webrtc_streaming
 
 .. image:: https://readthedocs.org/projects/webrtc-streaming/badge/?version=latest
         :target: https://webrtc-streaming.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/cartovarc/webrtc_streaming/shield.svg
-     :target: https://pyup.io/repos/github/cartovarc/webrtc_streaming/
+.. image:: https://pyup.io/repos/github/Utring/webrtc_streaming/shield.svg
+     :target: https://pyup.io/repos/github/Utring/webrtc_streaming/
      :alt: Updates
 
 

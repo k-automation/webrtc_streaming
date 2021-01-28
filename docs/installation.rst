@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/cartovarc/webrtc_streaming
+    $ git clone git://github.com/Utring/webrtc_streaming
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/cartovarc/webrtc_streaming/tarball/master
+    $ curl -OJL https://github.com/Utring/webrtc_streaming/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/cartovarc/webrtc_streaming
-.. _tarball: https://github.com/cartovarc/webrtc_streaming/tarball/master
+.. _Github repo: https://github.com/Utring/webrtc_streaming
+.. _tarball: https://github.com/Utring/webrtc_streaming/tarball/master
