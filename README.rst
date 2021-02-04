@@ -13,11 +13,13 @@ WebRTC Streaming
         :target: https://webrtc-streaming.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/Utring/webrtc_streaming/shield.svg
      :target: https://pyup.io/repos/github/Utring/webrtc_streaming/
      :alt: Updates
 
+.. image:: https://pepy.tech/badge/webrtc-streaming/month
+        :target: https://pepy.tech/project/webrtc-streaming
+        :alt: Documentation Status
 
 
 Ready to use WebRTC Streaming
